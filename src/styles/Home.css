@@ -1,0 +1,219 @@
+.notfi {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    border-radius: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 20px;
+    font-weight: 500;
+}
+
+.t-h {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini-heading {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+
+
+}
+
+.sub-heading {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+
+.heading {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.water-img {
+    width: 100%;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+.form-control {
+    border-radius: 1rem;
+    text-align: end;
+}
+
+.btn-my {
+    border-radius: 1rem;
+    padding: 6px;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+    background-color: black;
+    color: khaki;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.user-input {
+    border: none;
+    border-radius: 1rem;
+    text-align: end;
+    font-size: 16px;
+
+}
+
+.deparments {
+    display: flex;
+    row-gap: 10px;
+}
+
+.p-heading {
+    padding: 5px;
+    font-style: oblique;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-wrap: balance;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+article .p {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 70ch;
+    line-height: 1.5;
+    letter-spacing: 0.125em;
+    text-indent: 30px;
+
+}
+
+.m-home {
+    position: relative;
+    top: 100px;
+}
+
+.m-bar {
+    position: sticky;
+    top: 0px;
+    height: 100%;
+
+}
+
+.sub-heading-home {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+        padding: 0px;
+    }
+
+
+    .m-bar {
+        position: relative;
+    }
+
+    .sub-heading-home {
+        font-size: 9px;
+        text-wrap: nowrap;
+
+
+    }
+
+    .mini-heading {
+        font-size: 8px;
+        text-wrap: nowrap;
+    }
+
+    .notfi {
+        font-size: 8px;
+        font-weight: bold;
+    }
+
+    .heading {
+        font-size: 16px;
+
+    }
+
+    .sub-heading {
+        font-size: 12px;
+        font-weight: 800;
+    }
+
+    .mini-heading {
+        font-size: 9px;
+    }
+
+    .user-input {
+        position: relative;
+        right: 90px;
+        font-size: 12px;
+
+
+    }
+
+    .art {
+        font-size: 11px;
+        width: 300px;
+        text-wrap: balance;
+        min-width: fit-content;
+
+
+
+    }
+
+    .l-b {
+        position: relative;
+        right: 10px;
+        bottom: 20px;
+        font-size: 11px;
+    }
+
+
+
+    .l-b2 {
+        position: relative;
+        right: 105px;
+        top: 30px;
+        font-size: 10px;
+
+    }
+
+    .l-b3 {
+        position: relative;
+        bottom: 30px;
+        right: 10px;
+    }
+
+    .li-side {
+        position: relative;
+        right: 20px;
+    }
+
+.main-cards{
+    position: relative;
+    left: 0px;
+    right: 0px;
+}
+ 
+.navbar{
+    width: 88%;
+}
+}
