@@ -9,7 +9,7 @@ const Header = () => {
             <header className="container header " id="myheader">
                 <nav className="navbar navbar-expand-lg bg-body-tertiary">
                     <div className="container">
-                        <a className="navbar-brand" href="/">
+                        <a className="navbar-brand" href="/card">
                             <img src={logo} alt="site-logo" />
                         </a>
                         <button

@@ -1,296 +1,86 @@
 import React from 'react'
 import '../styles/Related.css'
-import redditimg from '../assets/img/reddit.jpg'
+import redditimg from '../assets/img/Reddit.png'
+import save from '../assets/img/save2.png'
+import save2 from '../assets/img/share.png'
 const Related = () => {
     return (
 
-        <div className="container ">
-            <center>
-                <h1 className='heading t-h ths'>Related Jobs</h1>
-                {/* card section */}
-                <section className='mt-3'>
-                    <div className="row">
+        <div className="container r-cards mt-5  ">
+            <h1 className='mt-5 r-card mb-5'>Related Jobs</h1> <div>
 
-                        {/* <div className="col ">
-                            <span className='notify-top alert alert-danger'>Urgent Hiring</span>
-                            <div className="card mb-4 border rounded-4 r-c " style={{ width: "20rem", padding: '20px' }}>
-                                <div className="card-body">
-                                    <div className="card-text">
-                                        <div className="d-flex f-t">
-                                            <div >
-                                                <p className="sub-heading-r reddit-space"> <span><img src={redditimg} alt="reddit-logo" className='reddit-img' /></span> Graphic Designer    </p>
-                                                <p className='mini-heading-r reddit-space'>reddit</p>
-                                                <p className='mini-heading reddit-space'>15 days remaining</p>
-                                            </div>
-                                            <div>
-                                                <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-lightning sub-heading" viewBox="0 0 16 16">
-                                                    <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1H6.374z" />
-                                                </svg> &nbsp;
-                                                    <i className="ri-save-line fs-2 reddit "></i></p>
-                                            </div>
+
+                <div className="col-3">
+                    <div className="card r-main-card" style={{ width: '22rem' }}>
+                        <div className="card-body">
+                            <div className="card-title">
+                                <div className="notfi-3 ">
+
+                                    <span className="alert alert-danger notfi2 mx-2">
+                                        Urgent Hiring
+                                    </span>
+                                </div>
+                                <div className="d-flex f-r">
+                                    <div>
+                                        <div>
+                                            <p className="sub-heading-r"> <span><img src={redditimg} alt="reddit-logo" className='avatar-img-r' /></span> Graphic Designer    </p>
+                                            <p className='mini-heading-r reddit-space'>reddit</p>
+                                            <p className='mini-heading-rr'>15 days remaining</p>
                                         </div>
                                     </div>
-                                </div>
-                                <div className="d-flex f-t">
                                     <div>
-                                        <p className='mini-heading-r'> <i className="ri-map-pin-line"></i>delhi,india <br /><span className='mini-heading mx-3'>full time</span></p>
-                                    </div>
-                                    <div>
-                                        <p className='mini-heading-r'> <i className="ri-briefcase-line"></i> 1 to 4 year exp <br /><span className='mini-heading mx-3'>remote</span></p>
+                                        <img src={save2} alt="save" className='avatar-img-r2' />
+                                        <img src={save} alt="save" className='avatar-img-r2' />
+
                                     </div>
                                 </div>
-                                <div className="card-body">
-                                    <div className="d-flex f-t">
-                                        <div><button className='btns'> Adobe</button></div>
-                                        <div><button className='btns'> Video Editing</button></div>
-                                        <div><button className='btns'> Motion Graphics</button></div>
-                                        <div><button className='btns'> + 6</button></div>
+
+                                <div className="d-flex delhi-r">
+                                    <div>
+                                        <p className='mini'> <i className="ri-map-pin-line w-i"></i> delhi,india <br /><span ><button className='mini-hi'>full time</button></span></p>
+                                    </div>
+
+                                    <div>
+                                        <p className='mini'> <i className="ri-briefcase-line w-i"></i> 1 to 4 year exp <br /><span ><button className='mini-hi'>remote</button></span></p>
                                     </div>
                                 </div>
-                                <div className="d-flex f-t">
-                                    <div>
-                                        <p className="sub-heading-r">1555+ impression</p> </div>
-                                    <div>
-                                        <button className='btn-my-1'>apply now</button>
-                                    </div>
+
+                                <div className="d-flex wallet mt-3">
+
+                                    <p ><i className="ri-wallet-3-line w-r w-i"></i>  &nbsp;<span className='mini-heading-r'> RS 4.5 L / Annum</span></p>
                                 </div>
                             </div>
-                        </div> */}
 
-                        <div className="col main-cards ">
-                            <span className='notify-top alert alert-primary '>Top Choice </span>
-                            <div className="card mb-4 border rounded-4 r-c" style={{ width: "20rem" }}>
-                                <div className="card-body ">
-                                    <div className="card-text">
-                                        <div className="d-flex f-t">
-                                            <div>
-                                                <p className="sub-heading-r"> <span><img src={redditimg} alt="reddit-logo" className='reddit-img' /></span> Graphic Designer    </p>
-                                                <p className='mini-heading-r reddit-space'>reddit</p>
-                                                <p className='mini-heading reddit-space2'>15 days remaining</p>
-                                            </div>
-                                            <div>
-                                                <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-lightning sub-heading" viewBox="0 0 16 16">
-                                                    <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1H6.374z" />
-                                                </svg> &nbsp;
-                                                    <i className="ri-save-line fs-2 reddit "></i></p>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div className="card-text">
+                                <div className="d-flex gap-1">
+                                    <div><button className='mini-hi'> Adobe</button></div>
+                                    <div><button className='mini-hi'> Video Editing</button></div>
+                                    <div><button className='mini-hi'> Motion Graphics</button></div>
+                                    <div><button className='mini-hi'> + 6</button></div>
                                 </div>
-                                <div className="d-flex f-t">
+                            </div>
+
+                            <div className="card-text mt-4">
+                                <div className="d-flex last-card">
                                     <div>
-                                        <p className='mini-heading-r'> <i className="ri-map-pin-line big-s"></i>delhi,india <br /><span className='mini-heading mx-3 big-s2'>full time</span></p>
+
+                                        <h6 className='sub-heading-r mx-2'>1250 <span className='mini-hi im'> impressions</span></h6>
                                     </div>
                                     <div>
-                                        <p className='mini-heading-r'> <i className="ri-briefcase-line big-s"></i> 1 to 4 year exp <br /><span className='mini-heading mx-3 big-s2'>remote</span></p>
+                                        <button className='btn-my-l'>Apply Now <i className="ri-arrow-right-fill"></i></button>
+
                                     </div>
+
                                 </div>
-                                <div className="card-body">
-                                    <div className="d-flex f-t  ">
-                                        <div><button className='btns big-s3'> Adobe</button></div>
-                                        <div><button className='btns big-s3'> Video Editing</button></div>
-                                        <div><button className='btns big-s3'> Motion Graphics</button></div>
-                                        <div><button className='btns big-s3'> + 6</button></div>
-                                    </div>
-                                </div>
-                                <div className="d-flex f-t">
-                                    <div>
-                                        <p className="sub-heading-r">1555+ impression</p> </div>
-                                    <div>
-                                        <button className='btn-my-1'>apply now</button>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
-
-                        <div className="col ">
-                            <span className='notify-top alert alert-warning'>Female   only</span>
-                            <div className="card mb-4 border rounded-4" style={{ width: "20rem" }}>
-                                <div className="card-body">
-                                    <div className="card-text">
-                                        <div className="d-flex f-t">
-                                            <div>
-                                                <p className="sub-heading-r"> <span><img src={redditimg} alt="reddit-logo" className='reddit-img' /></span> Graphic Designer    </p>
-                                                <p className='mini-heading-r'>reddit</p>
-                                                <p className='mini-heading'>15 days remaining</p>
-                                            </div>
-                                            <div>
-                                                <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-lightning sub-heading" viewBox="0 0 16 16">
-                                                    <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1H6.374z" />
-                                                </svg> &nbsp;
-                                                    <i className="ri-save-line fs-2 reddit "></i></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="d-flex f-t">
-                                    <div>
-                                        <p className='mini-heading-r'> <i className="ri-map-pin-line"></i>delhi,india <br /><span className='mini-heading mx-3'>full time</span></p>
-                                    </div>
-                                    <div>
-                                        <p className='mini-heading-r'> <i className="ri-briefcase-line"></i> 1 to 4 year exp <br /><span className='mini-heading mx-3'>remote</span></p>
-                                    </div>
-                                </div>
-                                <div className="card-body">
-                                    <div className="d-flex f-t  ">
-                                        <div><button className='btns'> Adobe</button></div>
-                                        <div><button className='btns'> Video Editing</button></div>
-                                        <div><button className='btns'> Motion Graphics</button></div>
-                                        <div><button className='btns'> + 6</button></div>
-                                    </div>
-                                </div>
-                                <div className="d-flex f-t">
-                                    <div>
-                                        <p className="sub-heading-r">1555+ impression</p> </div>
-                                    <div>
-                                        <button className='btn-my-1'>apply now</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col ">
-                            <span className='notify-top alert alert-danger'>Urgent Hiring</span>
-                            <div className="card mb-4 border rounded-4" style={{ width: "20rem" }}>
-                                <div className="card-body">
-                                    <div className="card-text">
-                                        <div className="d-flex f-t">
-                                            <div>
-                                                <p className="sub-heading-r"> <span><img src={redditimg} alt="reddit-logo" className='reddit-img' /></span> Graphic Designer    </p>
-                                                <p className='mini-heading-r'>reddit</p>
-                                                <p className='mini-heading'>15 days remaining</p>
-                                            </div>
-                                            <div>
-                                                <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-lightning sub-heading" viewBox="0 0 16 16">
-                                                    <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1H6.374z" />
-                                                </svg> &nbsp;
-                                                    <i className="ri-save-line fs-2 reddit "></i></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="d-flex f-t">
-                                    <div>
-                                        <p className='mini-heading-r'> <i className="ri-map-pin-line"></i>delhi,india <br /><span className='mini-heading mx-3'>full time</span></p>
-                                    </div>
-                                    <div>
-                                        <p className='mini-heading-r'> <i className="ri-briefcase-line"></i> 1 to 4 year exp <br /><span className='mini-heading mx-3'>remote</span></p>
-                                    </div>
-                                </div>
-                                <div className="card-body">
-                                    <div className="d-flex f-t  ">
-                                        <div><button className='btns'> Adobe</button></div>
-                                        <div><button className='btns'> Video Editing</button></div>
-                                        <div><button className='btns'> Motion Graphics</button></div>
-                                        <div><button className='btns'> + 6</button></div>
-                                    </div>
-                                </div>
-                                <div className="d-flex f-t">
-                                    <div>
-                                        <p className="sub-heading-r">1555+ impression</p> </div>
-                                    <div>
-                                        <button className='btn-my-1'>apply now</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col ">
-                            <span className='notify-top alert alert-primary '>Top Choice </span>
-                            <div className="card mb-4 border rounded-4" style={{ width: "20rem" }}>
-                                <div className="card-body">
-                                    <div className="card-text">
-                                        <div className="d-flex f-t">
-                                            <div>
-                                                <p className="sub-heading-r"> <span><img src={redditimg} alt="reddit-logo" className='reddit-img' /></span> Graphic Designer    </p>
-                                                <p className='mini-heading-r'>reddit</p>
-                                                <p className='mini-heading'>15 days remaining</p>
-                                            </div>
-                                            <div>
-                                                <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-lightning sub-heading" viewBox="0 0 16 16">
-                                                    <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1H6.374z" />
-                                                </svg> &nbsp;
-                                                    <i className="ri-save-line fs-2 reddit "></i></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="d-flex f-t">
-                                    <div>
-                                        <p className='mini-heading-r'> <i className="ri-map-pin-line"></i>delhi,india <br /><span className='mini-heading mx-3'>full time</span></p>
-                                    </div>
-                                    <div>
-                                        <p className='mini-heading-r'> <i className="ri-briefcase-line"></i> 1 to 4 year exp <br /><span className='mini-heading mx-3'>remote</span></p>
-                                    </div>
-                                </div>
-                                <div className="card-body">
-                                    <div className="d-flex f-t  ">
-                                        <div><button className='btns'> Adobe</button></div>
-                                        <div><button className='btns'> Video Editing</button></div>
-                                        <div><button className='btns'> Motion Graphics</button></div>
-                                        <div><button className='btns'> + 6</button></div>
-                                    </div>
-                                </div>
-                                <div className="d-flex f-t">
-                                    <div>
-                                        <p className="sub-heading-r">1555+ impression</p> </div>
-                                    <div>
-                                        <button className='btn-my-1'>apply now</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col ">
-                            <span className='notify-top alert alert-warning'>Female  only</span>
-                            <div className="card mb-4 border rounded-4" style={{ width: "20rem" }}>
-                                <div className="card-body">
-                                    <div className="card-text">
-                                        <div className="d-flex f-t">
-                                            <div>
-                                                <p className="sub-heading-r"> <span><img src={redditimg} alt="reddit-logo" className='reddit-img' /></span> Graphic Designer    </p>
-                                                <p className='mini-heading-r'>reddit</p>
-                                                <p className='mini-heading'>15 days remaining</p>
-                                            </div>
-                                            <div>
-                                                <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-lightning sub-heading" viewBox="0 0 16 16">
-                                                    <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1H6.374z" />
-                                                </svg> &nbsp;
-                                                    <i className="ri-save-line fs-2 reddit "></i></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="d-flex f-t">
-                                    <div>
-                                        <p className='mini-heading-r'> <i className="ri-map-pin-line"></i>delhi,india <br /><span className='mini-heading mx-3'>full time</span></p>
-                                    </div>
-                                    <div>
-                                        <p className='mini-heading-r'> <i className="ri-briefcase-line"></i> 1 to 4 year exp <br /><span className='mini-heading mx-3'>remote</span></p>
-                                    </div>
-                                </div>
-                                <div className="card-body">
-                                    <div className="d-flex f-t  ">
-                                        <div><button className='btns'> Adobe</button></div>
-                                        <div><button className='btns'> Video Editing</button></div>
-                                        <div><button className='btns'> Motion Graphics</button></div>
-                                        <div><button className='btns'> + 6</button></div>
-                                    </div>
-                                </div>
-                                <div className="d-flex f-t">
-                                    <div>
-                                        <p className="sub-heading-r">1555+ impression</p> </div>
-                                    <div>
-                                        <button className='btn-my-1'>apply now</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
                     </div>
-                </section>
-            </center>
+
+                </div>
+
+
+            </div>
         </div>
 
     )

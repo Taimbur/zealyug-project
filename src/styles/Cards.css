@@ -1,0 +1,313 @@
+.real-cards {
+    position: relative;
+    top: 60px;
+}
+
+.bgcard {
+    width: 945px;
+    height: 1570px;
+    position: relative;
+    right: 20px;
+
+    border-radius: 80px;
+    color: FFFFFF;
+}
+
+.notfi {
+    color: #ff7500;
+    background-color: #fff2e6;
+    font-size: 13px;
+    border-radius: 2rem;
+    padding: 8px;
+}
+
+.notfi2 {
+    color: #ff7500;
+    background: #fdedf0;
+    font-size: 13px;
+    border-radius: 2rem;
+    padding: 8px;
+}
+
+.notfi-3 {
+    text-align: start;
+    position: relative;
+    bottom: 27px;
+}
+
+.water-img {
+    width: 62px;
+    height: 62px;
+}
+
+.heading {
+    color: #003d4d;
+    font-size: 22px;
+    line-height: 34px;
+    text-transform: capitalize;
+}
+
+.sub-heading {
+    color: #1c1c1e;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.sub-headingr {
+    color: #003d4d;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.mini-heading {
+    color: #1c1c1e;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+.mini-headingr {
+    color: #949daf;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+.d {
+    justify-content: space-between;
+}
+
+.g-photo {
+    width: 90px;
+    height: 40px;
+    padding: 5px;
+}
+
+.save-img {
+    width: 30%;
+    height: 30%;
+    padding: 7px;
+    color: #57a7b3;
+}
+
+.btn-my {
+    border-radius: 1rem;
+    padding: 7px;
+    font-size: 15px;
+    position: relative;
+    bottom: 10px;
+    background-color: black;
+    color: khaki;
+    top: 1px;
+}
+
+.avatar-img {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+
+.user-input {
+    border: none;
+    position: relative;
+    left: 77px;
+    text-align: end;
+    font-size: 15px;
+    color: #57a7b3;
+    border-radius: 1rem;
+}
+
+.user-input-div-s {
+    position: relative;
+    left: 100px;
+}
+
+.user-card {
+    border-radius: 10px;
+    height: 100px;
+}
+
+.job-d {
+    color: #003d4d;
+    text-align: start;
+    text-transform: capitalize;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.li-side {
+    position: relative;
+    right: 20px;
+    padding: 0;
+}
+
+.art {
+    color: #4c4a37;
+    text-align: start;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 20px;
+    margin: 0 0 10px;
+}
+
+.last-b {
+    position: relative;
+    left: 300px;
+    text-align: end;
+    top: 20px;
+}
+
+.last-btn {
+    text-transform: capitalize;
+    color: #57a7b3;
+    border-radius: 50px;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    border-color: #57a7b3;
+}
+
+.actives {
+    color: #57a7b3;
+}
+
+@media only screen and (max-width: 600px) {
+    .col-9 {
+        width: 100%;
+    }
+
+    .notfi {
+        font-size: 12px;
+    }
+
+    .notfi2 {
+        font-size: 11px;
+    }
+
+    .water-img {
+        position: relative;
+        right: 70px;
+    }
+
+    .m {
+        position: relative;
+        right: 40px;
+    }
+
+    .mp {
+        position: relative;
+        right: 12px;
+    }
+
+    .m-post {
+        position: relative;
+        right: 27px;
+    }
+
+    .m-g {
+        position: relative;
+        left: 23px;
+    }
+
+    .m-g {
+        position: relative;
+        left: 23px;
+    }
+
+    .m-d {
+        position: relative;
+        left: 13px;
+    }
+
+    .m-dd {
+        position: relative;
+        left: 16px;
+    }
+
+    .avatar-img {
+        position: relative;
+        left: 0px;
+    }
+
+    .avatar-div {
+        position: relative;
+        right: 20px;
+    }
+
+    .names-div {
+        position: relative;
+        right: 20px;
+    }
+
+    .names-div-s {
+        position: relative;
+        right: 15px;
+        top: 10px;
+    }
+
+    .sahil {
+        position: relative;
+        right: 25px;
+    }
+
+    .user-input-div {
+        position: relative;
+        left: 0px;
+    }
+
+    .user-input {
+        width: 80%;
+    }
+
+    form {
+        position: relative;
+        right: 70px;
+        top: 50px;
+    }
+
+    .user-card-name {
+        font-size: 15px;
+        /* text-wrap: nowrap; */
+    }
+
+    .last-btn {
+        font-size: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        text-wrap: nowrap;
+        position: relative;
+        right: 95px;
+        top: 45px;
+    }
+
+    .end-text {
+        text-wrap: nowrap;
+        font-size: 8.9px;
+        position: relative;
+        right: 10px;
+        font-weight: 600;
+    }
+
+    .col-3 {
+        position: relative;
+        padding: 0px;
+        right: 22.5px;
+    }
+
+    .col-9 {
+        position: relative;
+        padding: 0px;
+    }
+
+    .art {
+        font-size: 12px;
+    }
+}
