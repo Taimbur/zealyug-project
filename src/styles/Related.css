@@ -1,13 +1,41 @@
  .r-card {
-
+     font-weight: 600;
      color: #141414;
-     font-size: 25px;
-     text-wrap: nowrap;
+     font-size: 16px;
+     font-family: 'Poppins', sans-serif;
  }
 
  .avatar-img-r {
      width: 48px;
      height: 47px;
+
+ }
+ 
+ .g-d {
+     font-size: 16px;
+     font-family: 'Poppins', sans-serif;
+     line-height: 28.2px;
+
+ }
+
+ .reddit-space {
+     font-size: 12px;
+     font-family: 'Poppins', sans-serif;
+     text-transform: capitalize;
+     position: relative;
+     bottom: 27px;
+     font-weight: 500;
+     right: 15px;
+ }
+
+ .reddit-space-2 {
+     font-size: 10px;
+     font-family: 'Poppins', sans-serif;
+     text-transform: capitalize;
+     position: relative;
+     bottom: 40px;
+     font-weight: 500;
+     left: 6px;
  }
 
  .avatar-img-r2 {
@@ -17,10 +45,12 @@
 
  .f-r {
      justify-content: space-between;
+
  }
 
  .r-main-card {
      border-radius: 1rem;
+     padding: 1px 1px;
  }
 
 
@@ -32,11 +62,17 @@
 
  .mini-heading-r {
      text-transform: capitalize;
-     font-weight: 600;
+     font-weight: 500;
      font-size: 13px;
      font-family: 'Poppins', sans-serif;
      position: relative;
      bottom: 20px;
+ }
+
+ .annum {
+     font-size: 12px;
+     font-family: 'Poppins', sans-serif;
+     font-weight: normal;
  }
 
  .mini-heading-rr {
@@ -49,25 +85,51 @@
 
  .delhi-r {
      justify-content: space-between;
+     position: relative;
+     bottom: 20px;
+
  }
 
  .mini {
      text-transform: capitalize;
+     font-weight: 500;
      font-size: 12px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-family: 'Poppins', sans-serif;
+     color: #655F5F;
+     position: relative;
+     bottom: 5px;
  }
 
- .mini-hi {
+ .mini-btn {
      text-transform: capitalize;
      color: #655F5F;
      border-radius: 10px;
-     font-size: 10.4px;
+     font-size: 11px;
      padding-left: 12px;
      padding-right: 12px;
      padding-top: 5px;
      padding-bottom: 5px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
      border: none;
+     font-weight: 500;
+     font-family: 'Poppins', sans-serif;
+     position: relative;
+     top: 5px;
+ }
+
+ .mini-btns {
+     text-transform: capitalize;
+     color: #655F5F;
+     border-radius: 10px;
+     font-size: 10px;
+     padding-left: 12px;
+     padding-right: 12px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border: none;
+     font-weight: 500;
+     font-family: 'Poppins', sans-serif;
+     position: relative;
+     bottom: 40px;
 
  }
 
@@ -84,25 +146,38 @@
  }
 
  .last-card {
-     justify-content: space-between;
+     justify-content: space-around;
+     position: relative;
+     bottom: 18px;
  }
 
  .btn-my-l {
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-family: 'Poppins', sans-serif;
      font-size: 12px;
      padding: 5px;
      padding-left: 5px;
      padding-right: 5px;
-     border-radius: 12px;
+     border-radius: 15px;
      background-color: #003D4D;
-     color: whitesmoke;
+     color: white;
 
  }
 
  .im {
      position: relative;
      right: 10px;
+     font-size: 11px;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 400;
+     text-transform: capitalize;
 
+ }
+
+ .wallet {
+     position: relative;
+     bottom: 20px;
+     font-size: 11px;
+     font-family: 'Poppins', sans-serif;
  }
 
  @media only screen and (max-width: 992px) {
@@ -119,4 +194,46 @@
          text-wrap: nowrap;
 
      }
+
+     .r-graphic {
+         font-size: 14px;
+     }
+
+     .reddit-space {
+         font-size: 12px;
+         margin-left: 15px;
+     }
+
+     .reddit-space-2 {
+         font-size: 9px;
+         margin-left: 15px;
+     }
+
+     .avatar-img-r2 {
+         width: 30px;
+         height: 30px;
+     }
+
+     .s {
+         font-size: 10px;
+     }
+
+     .ss {
+         font-size: 9px;
+     }
+
+     .sss {
+         font-size: 13px;
+
+     }
+
+     .ssss {
+         font-size: 10px;
+     }
+
+     .for-space {
+         position: relative;
+         right: 2px;
+     }
+
  }

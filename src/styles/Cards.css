@@ -1,313 +1,632 @@
-.real-cards {
-    position: relative;
-    top: 60px;
-}
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-.bgcard {
-    width: 945px;
-    height: 1570px;
-    position: relative;
-    right: 20px;
+ .real-cards {
+     position: relative;
+     top: 60px;
 
-    border-radius: 80px;
-    color: FFFFFF;
-}
+ }
 
-.notfi {
-    color: #ff7500;
-    background-color: #fff2e6;
-    font-size: 13px;
-    border-radius: 2rem;
-    padding: 8px;
-}
+ .container {
+     border: none;
+ }
 
-.notfi2 {
-    color: #ff7500;
-    background: #fdedf0;
-    font-size: 13px;
-    border-radius: 2rem;
-    padding: 8px;
-}
+ .bgcard {
+     width: 945px;
+     height: 1570px;
+     position: relative;
+     right: 20px;
 
-.notfi-3 {
-    text-align: start;
-    position: relative;
-    bottom: 27px;
-}
+     border-radius: 80px;
+     color: FFFFFF;
+ }
 
-.water-img {
-    width: 62px;
-    height: 62px;
-}
+ .notfi {
+     color: #ff7500;
+     background-color: #fff2e6;
+     font-size: 13px;
+     border-radius: 2rem;
+     padding: 6px 10px;
+ }
 
-.heading {
-    color: #003d4d;
-    font-size: 22px;
-    line-height: 34px;
-    text-transform: capitalize;
-}
+ .notfi2 {
+     color: #ff7500;
+     background: #fdedf0;
+     font-size: 13px;
+     border-radius: 2rem;
+     padding: 6px 10px;
+     font-family: 'Poppins', sans-serif;
+ }
 
-.sub-heading {
-    color: #1c1c1e;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 500;
-}
+ .notfi-end {
+     font-size: 13px;
+     border-radius: 2rem;
+     padding: 6px 10px;
+     font-family: 'Poppins', sans-serif;
+ }
 
-.sub-headingr {
-    color: #003d4d;
-    font-size: 16px;
-    line-height: 20px;
-    font-weight: 600;
-    text-transform: capitalize;
-}
+ .mp {
+     text-align: start;
+     position: relative;
+     right: 10px;
+     bottom: 15px;
+ }
 
-.mini-heading {
-    color: #1c1c1e;
-    font-size: 14px;
-    line-height: 20px;
-    text-transform: capitalize;
-}
+ .pd {
+     font-family: 'Poppins', sans-serif;
+     line-height: 34px;
+     position: relative;
+     top: 1px;
 
-.mini-headingr {
-    color: #949daf;
-    font-size: 14px;
-    line-height: 24px;
-    text-transform: capitalize;
-}
+ }
 
-.d {
-    justify-content: space-between;
-}
+ .notfi-3 {
+     text-align: start;
+     position: relative;
+     bottom: 27px;
+ }
 
-.g-photo {
-    width: 90px;
-    height: 40px;
-    padding: 5px;
-}
+ .water-img {
+     width: 75px;
+     height: 75px;
+     position: relative;
+     right: 58px;
+ }
 
-.save-img {
-    width: 30%;
-    height: 30%;
-    padding: 7px;
-    color: #57a7b3;
-}
+ .heading {
+     color: #003d4d;
+     font-size: 22px;
+     line-height: 34px;
+     text-transform: capitalize;
+ }
 
-.btn-my {
-    border-radius: 1rem;
-    padding: 7px;
-    font-size: 15px;
-    position: relative;
-    bottom: 10px;
-    background-color: black;
-    color: khaki;
-    top: 1px;
-}
 
-.avatar-img {
-    width: 70px;
-    height: 70px;
-    padding: 10px;
-}
+ .sub-heading {
+     color: #003D4D;
+     font-size: 17px;
+     line-height: 20px;
+     font-weight: 500;
+     font-family: 'Poppins', sans-serif;
+     text-align: start;
+ }
 
-.user-input {
-    border: none;
-    position: relative;
-    left: 77px;
-    text-align: end;
-    font-size: 15px;
-    color: #57a7b3;
-    border-radius: 1rem;
-}
+ .sub-headingr {
+     color: #003d4d;
+     font-size: 14px;
+     line-height: 20px;
+     text-transform: capitalize;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 600;
+ }
 
-.user-input-div-s {
-    position: relative;
-    left: 100px;
-}
+ .mini-heading {
+     color: #1c1c1e;
+     font-size: 14px;
+     line-height: 20px;
+     text-transform: capitalize;
+ }
 
-.user-card {
-    border-radius: 10px;
-    height: 100px;
-}
+ .mini-headingr {
+     color: #949daf;
+     font-size: 12px;
+     line-height: 24px;
+     text-transform: capitalize;
+     font-family: 'Poppins', sans-serif;
+     position: relative;
+     top: 10px;
+ }
 
-.job-d {
-    color: #003d4d;
-    text-align: start;
-    text-transform: capitalize;
-    line-height: 28px;
-    font-weight: 600;
-}
+ .d {
+     justify-content: space-between;
+ }
 
-.li-side {
-    position: relative;
-    right: 20px;
-    padding: 0;
-}
+ .g-photo {
+     width: 90px;
+     height: 40px;
+     padding: 5px;
+ }
 
-.art {
-    color: #4c4a37;
-    text-align: start;
-    font-weight: 600;
-    text-transform: capitalize;
-    line-height: 20px;
-    margin: 0 0 10px;
-}
+ .save-img {
+     width: 30%;
+     height: 30%;
+     padding: 7px;
+     color: #57a7b3;
+ }
 
-.last-b {
-    position: relative;
-    left: 300px;
-    text-align: end;
-    top: 20px;
-}
+ .btn-my {
+     border-radius: 5px;
+     padding: 8px;
+     font-size: 13px;
+     position: relative;
+     text-align: center;
+     bottom: 10px;
+     top: 1px;
+     padding-left: 20px;
+     background-color: hsl(192, 100%, 15%);
+     color: #FFFFFF;
+ }
 
-.last-btn {
-    text-transform: capitalize;
-    color: #57a7b3;
-    border-radius: 50px;
-    font-size: 13px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-style: solid;
-    border-color: #57a7b3;
-}
+ .arrow {
+     position: relative;
+     top: 2px;
+ }
 
-.actives {
-    color: #57a7b3;
-}
+ .avatar-img {
+     width: 75px;
+     height: 75px;
+     padding: 10px;
 
-@media only screen and (max-width: 600px) {
-    .col-9 {
-        width: 100%;
-    }
+ }
 
-    .notfi {
-        font-size: 12px;
-    }
+ .user-input {
+     border: none;
+     position: relative;
+     left: 77px;
+     text-align: end;
+     font-size: 15px;
+     color: #57a7b3;
+     border-radius: 1rem;
+ }
 
-    .notfi2 {
-        font-size: 11px;
-    }
+ .user-input-div-s {
+     position: relative;
+     left: 100px;
+ }
 
-    .water-img {
-        position: relative;
-        right: 70px;
-    }
+ .user-card {
+     border-radius: 10px;
+     height: 90px;
 
-    .m {
-        position: relative;
-        right: 40px;
-    }
+ }
 
-    .mp {
-        position: relative;
-        right: 12px;
-    }
+ .job-d {
+     color: #003d4d;
+     text-align: start;
+     text-transform: capitalize;
+     line-height: 28.2px;
+     font-weight: 600;
+     font-size: 20px;
+     font-family: 'Poppins', sans-serif;
+ }
 
-    .m-post {
-        position: relative;
-        right: 27px;
-    }
+ .job-d-r {
+     color: #003d4d;
+     text-align: start;
+     text-transform: capitalize;
+     line-height: 20.2px;
+     font-weight: 600;
+     font-size: 15px;
+     font-family: 'Poppins', sans-serif;
+     position: relative;
+     left: 10px;
+ }
 
-    .m-g {
-        position: relative;
-        left: 23px;
-    }
+ .li-side {
+     position: relative;
+     right: 20px;
+     padding-top: 1px;
+ }
 
-    .m-g {
-        position: relative;
-        left: 23px;
-    }
+ .art {
+     color: #000000;
+     text-align: start;
+     font-weight: 600;
+     text-transform: capitalize;
+     font-size: 14px;
+     line-height: 1.9;
+ }
 
-    .m-d {
-        position: relative;
-        left: 13px;
-    }
 
-    .m-dd {
-        position: relative;
-        left: 16px;
-    }
+ .last-b {
+     position: relative;
+     left: 300px;
+     text-align: end;
+     top: 20px;
+ }
 
-    .avatar-img {
-        position: relative;
-        left: 0px;
-    }
+ .last-btn {
+     text-transform: capitalize;
+     color: #57a7b3;
+     border-radius: 50px;
+     font-size: 13px;
+     padding-left: 15px;
+     padding-right: 15px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-style: solid;
+     border-color: #57a7b3;
+     position: relative;
+     left: 350px;
+     top: 13px;
 
-    .avatar-div {
-        position: relative;
-        right: 20px;
-    }
+ }
 
-    .names-div {
-        position: relative;
-        right: 20px;
-    }
+ .actives {
+     color: #57a7b3;
+ }
 
-    .names-div-s {
-        position: relative;
-        right: 15px;
-        top: 10px;
-    }
+ .m-dd {
+     font-family: 'Poppins', sans-serif;
+     font-size: 13px;
+     text-align: start;
+     line-height: 20px;
+ }
 
-    .sahil {
-        position: relative;
-        right: 25px;
-    }
+ .m-post {
+     position: relative;
+     text-align: start;
+     bottom: 10px;
+     line-height: 20px;
+     font-size: 13.4px;
+ }
 
-    .user-input-div {
-        position: relative;
-        left: 0px;
-    }
+ .m-d {
+     position: relative;
+     top: 20px;
+     font-size: 13.4px;
+ }
 
-    .user-input {
-        width: 80%;
-    }
+ .sahil {
+     text-align: start;
+     font-family: 'Poppins', sans-serif;
+ }
 
-    form {
-        position: relative;
-        right: 70px;
-        top: 50px;
-    }
+ .end-img {
+     position: relative;
+     bottom: 12px;
+ }
 
-    .user-card-name {
-        font-size: 15px;
-        /* text-wrap: nowrap; */
-    }
+ @media only screen and (max-width: 600px) {
+     .col-9 {
+         width: 100%;
+     }
 
-    .last-btn {
-        font-size: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 2px;
-        padding-bottom: 2px;
-        text-wrap: nowrap;
-        position: relative;
-        right: 95px;
-        top: 45px;
-    }
+     .notfi-end {
+         font-size: 10px;
 
-    .end-text {
-        text-wrap: nowrap;
-        font-size: 8.9px;
-        position: relative;
-        right: 10px;
-        font-weight: 600;
-    }
+     }
 
-    .col-3 {
-        position: relative;
-        padding: 0px;
-        right: 22.5px;
-    }
 
-    .col-9 {
-        position: relative;
-        padding: 0px;
-    }
+     .d {
+         position: relative;
+         bottom: 25px;
+     }
 
-    .art {
-        font-size: 12px;
-    }
-}
+     .notfi {
+         font-size: 9px;
+     }
+
+     .notfi2 {
+         font-size: 9px;
+     }
+
+     .btn-my {
+
+         font-size: 9px;
+         position: relative;
+         text-align: center;
+         padding: 0px 10px;
+
+
+     }
+
+     .water-img {
+         margin-left: 20px;
+
+     }
+
+     .delhi-india {
+         position: relative;
+         top: 15px;
+     }
+
+     .g-photo {
+
+         width: 60px;
+         height: 30px;
+         padding: 5px;
+         position: relative;
+         left: 38px;
+
+     }
+
+     .m {
+         position: relative;
+         right: 40px;
+     }
+
+     .mp {
+
+         font-size: 14px;
+         line-height: 34px;
+         font-weight: 600;
+     }
+
+     .s-apply {
+         position: relative;
+         bottom: 30px;
+         right: 15px;
+
+     }
+
+     .profile-button {
+
+         border: none;
+         font-size: 10px;
+         line-height: 30px;
+         color: #57A7B3;
+         position: relative;
+         left: 130px;
+         bottom: 30px;
+         border-radius: 1rem;
+
+
+     }
+
+     .m-post {
+         position: relative;
+         right: 27px;
+
+     }
+
+     .m-g {
+         position: relative;
+
+     }
+
+
+     .m-d {
+         position: relative;
+         left: 18px;
+
+         text-align: end;
+         font-size: 9px;
+         font-family: 'Poppins', sans-serif;
+         line-height: 20px;
+     }
+
+     .end-img {
+         width: 60px;
+         height: 60px;
+         padding: 10px;
+         position: relative;
+         bottom: 20px;
+     }
+
+     .m-dd {
+         text-align: start;
+         position: relative;
+         right: 10px;
+         bottom: 10px;
+         font-size: 12px;
+         line-height: 20px;
+
+     }
+
+     .m-post {
+         text-align: start;
+         position: relative;
+         right: 10px;
+         bottom: 22px;
+         font-size: 9px;
+         line-height: 20px;
+     }
+
+     .avatar-img {
+         position: relative;
+         left: 0px;
+     }
+
+     .avatar-div {
+         position: relative;
+         right: 20px;
+     }
+
+     .names-div {
+         position: relative;
+         right: 20px;
+     }
+
+     .names-div-s {
+         position: relative;
+         right: 15px;
+         top: 10px;
+
+     }
+
+
+     .sahil {
+         position: relative;
+         right: 12px;
+         font-size: 11px;
+         line-height: 26px;
+         font-family: 'Poppins', sans-serif;
+         color: #003D4D;
+         font-weight: 600;
+         bottom: 20px;
+     }
+
+     .user-input-div {
+         position: relative;
+         left: 0px;
+     }
+
+     .user-input {
+         width: 80%;
+     }
+
+     form {
+         position: relative;
+         right: 70px;
+         top: 50px;
+     }
+
+     .user-card-name {
+         font-size: 15px;
+
+         /* text-wrap: nowrap; */
+     }
+
+     .user-card {
+         height: 100px;
+         position: relative;
+         bottom: 50px;
+         width: 300px;
+         height: 60px;
+
+     }
+
+     .last-btn {
+         font-size: 10px;
+         padding-left: 10px;
+         padding-right: 10px;
+         padding-top: 2px;
+         padding-bottom: 2px;
+         text-wrap: nowrap;
+         position: relative;
+         right: 95px;
+         top: 45px;
+     }
+
+     .end-text {
+
+         line-height: 12px;
+         position: relative;
+         right: 11px;
+         font-weight: 400;
+         font-size: 9px;
+         font-family: 'Poppins', sans-serif;
+         bottom: 25px;
+
+     }
+
+     .vry-lst {
+         font-size: 9px;
+         border-radius: 1rem;
+         position: relative;
+         bottom: 79px;
+         left: 140px;
+     }
+
+     .col-3 {
+         position: relative;
+         padding: 0px;
+         right: 22.5px;
+     }
+
+     .col-9 {
+         position: relative;
+         padding: 0px;
+     }
+
+     .art {
+         font-size: 10px;
+         line-height: 1.5;
+         width: 270px;
+         text-wrap: pretty;
+
+
+     }
+
+     .arts {
+         position: relative;
+         right: 30px;
+         bottom: 5px;
+         line-height: 0px;
+
+     }
+
+     .quali-sec {
+         position: relative;
+         bottom: 150px;
+     }
+
+     .quali-sec2 {
+         position: relative;
+         bottom: 185px;
+     }
+
+     .about-sec {
+         position: relative;
+         bottom: 185px;
+     }
+
+
+
+     .mini-headingr {
+         font-size: 8px;
+         line-height: 24px;
+         font-family: 'Poppins', sans-serif;
+         text-wrap: nowrap;
+         text-align: start;
+     }
+
+     .sub-headingr {
+         font-size: 9px;
+         color: #003D4D;
+         line-height: 20px;
+
+         text-align: start;
+     }
+
+     .depart {
+         position: relative;
+         bottom: 80px;
+     }
+
+     .job-sec {
+         position: relative;
+         bottom: 115px;
+     }
+
+     .job-d {
+         font-size: 12px;
+         line-height: 28px;
+         font-family: 'Poppins', sans-serif;
+     }
+
+     .job-d-r {
+         font-size: 11px;
+         line-height: 20px;
+
+     }
+
+     .test {
+         position: relative;
+         top: 10px;
+     }
+
+     .about-c {
+         position: relative;
+         bottom: 25px;
+     }
+
+     .sahil2 {
+         font-family: 'Poppins', sans-serif;
+         font-size: 11px;
+         font-weight: 600;
+         position: relative;
+         bottom: 15px;
+     }
+
+     .about-sec {
+         height: 0px;
+     }
+
+     .related-section {
+         position: relative;
+         bottom: 240px;
+
+     }
+ }
+
+ @media (min-width: 1024px) {
+     .profile-button {
+         display: none;
+
+     }
+
+     .vry-lst {
+         display: none;
+     }
+
+ }
